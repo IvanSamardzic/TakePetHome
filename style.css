@@ -1,0 +1,188 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    min-height: 8vh;
+}
+
+header h3 {
+    color: #3c1874;
+    font-size: 36px;
+    font-weight: 200;
+    text-shadow: 5px 2px #f3f3f3;
+}
+
+.header-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 0;
+    font-size: 18px;
+    text-shadow: 2px 2px #f3f3f3;
+}
+
+.article-image {
+    width: 300px;
+}
+
+.main-nav {
+    position: sticky;
+    top: 0px;
+    margin: auto;
+    z-index: 3;
+}
+
+.main-nav ul {
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #932436;
+    padding: 15px;
+    height: 5vh;
+}
+
+.main-nav li {
+    width: 25%;
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: #f3f3f3d7;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 0;
+    font-weight: 100;
+    letter-spacing: 0.1px;
+}
+
+.main-nav li a:hover {
+    color: #ffffff;
+    transition: 0.2s ease;
+}
+
+.banner {
+    min-height: 10vh;
+    max-height: 120vh;
+    width: 100%;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 600px;
+}
+
+.moto {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    color: #f3f3f3;
+    font-size: 45px;
+    background-color: #932436;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    width: 100%;
+    max-width: auto;
+}
+
+article {
+    position: relative;
+    padding: 10px;
+    margin: auto 10px;
+    border-bottom: 2px solid #932436;
+    height: 30vh;
+}
+
+.article-image {
+    position: absolute;
+    width: 280px;
+    height: 210px;
+    margin: 20px 200px;
+}
+
+.article-image:hover {
+    width: 320px;
+    height: 240px;
+    transition: 0.5s ease;
+}
+
+.name {
+    position: absolute;
+    top: 70px;
+    left: 600px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.8em;
+}
+
+.name span {
+    font-size: 1.8em;
+}
+
+form {
+    background-color: #e2e2e2;
+    min-height: 20vh;
+    position: relative;
+}
+
+label {
+    position: absolute;
+    margin: 0 40px;
+    padding: 40px;
+    left: 20%;
+    text-align: center;
+}
+
+input {
+    position: absolute;
+    top: 40%;
+    left: 44%;
+    margin: 0 40px;
+    width: 90px;
+    height: 30px;
+    border: 2px solid #3c1874;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #3c1874;
+    text-align: center;
+    cursor: pointer;
+}
+
+input:hover {
+    color: white;
+    background-color: #3c1874;
+    transition: 0.3s ease;
+}
+
+footer {
+    background-color: white;
+    min-height: 6vh;
+    text-align: center;
+}
+
+footer p {
+    padding: 20px;
+}
